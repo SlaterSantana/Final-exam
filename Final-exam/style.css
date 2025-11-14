@@ -1,0 +1,30 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+#register-btn {
+  transition: transform 0.3s ease;
+}
+
+#register-btn:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+body {
+  background-color: lightyellow;
+}
